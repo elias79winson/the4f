@@ -17,8 +17,8 @@ body {
 
 .hero-container {
     width: 100%;
-    max-width: 1320px;
-    padding: 20px;
+    max-width: 980px;
+    padding: 15px;
 }
 
 .banner-card {
@@ -27,7 +27,7 @@ body {
     aspect-ratio: 16 / 9;
     background: #050508;
     border: 1px solid rgba(255, 42, 75, 0.35);
-    border-radius: 20px;
+    border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.95), 0 0 50px rgba(0, 229, 255, 0.12);
 }
@@ -35,12 +35,12 @@ body {
 .banner-image {
     flex: 1 1 52%;
     background: url('showcase.jpg') center/cover no-repeat;
-    min-height: 350px;
+    min-height: 300px;
 }
 
 .banner-ui {
     flex: 1 1 48%;
-    padding: 4% 5%;
+    padding: 3.5% 4.5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,8 +50,8 @@ body {
 
 .ui-dots {
     position: absolute;
-    top: 24px;
-    right: 24px;
+    top: 20px;
+    right: 20px;
     display: flex;
     gap: 8px;
 }
@@ -67,19 +67,19 @@ body {
 
 .badge {
     font-family: 'Orbitron', sans-serif;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     letter-spacing: 2px;
     color: #ff2a4b;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.6rem;
     font-weight: 700;
 }
 
 .ui-title {
     font-family: 'Orbitron', sans-serif;
-    font-size: clamp(1.4rem, 2.2vw, 2.1rem);
+    font-size: clamp(1.2rem, 1.8vw, 1.8rem);
     font-weight: 900;
     line-height: 1.15;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.6rem;
     color: #fff;
     text-shadow: 0 0 20px rgba(0, 229, 255, 0.25);
 }
@@ -89,33 +89,33 @@ body {
 }
 
 .ui-subtitle {
-    font-size: clamp(0.85rem, 1vw, 0.95rem);
+    font-size: clamp(0.75rem, 0.9vw, 0.88rem);
     color: #9ab;
-    margin-bottom: 1.5rem;
-    line-height: 1.4;
+    margin-bottom: 1.2rem;
+    line-height: 1.35;
 }
 
 .ui-list {
     list-style: none;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
 }
 
 .ui-list li {
-    font-size: clamp(0.8rem, 1vw, 0.95rem);
-    margin-bottom: 0.7rem;
+    font-size: clamp(0.75rem, 0.9vw, 0.88rem);
+    margin-bottom: 0.5rem;
     display: flex;
     align-items: center;
     gap: 10px;
     color: #e1e1e6;
     border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-    padding-bottom: 0.6rem;
+    padding-bottom: 0.5rem;
 }
 
 .num {
     color: #ff2a4b;
     font-weight: 700;
     font-family: 'Orbitron', sans-serif;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
 }
 
 .cta-box {
@@ -123,12 +123,12 @@ body {
     align-items: center;
     gap: 10px;
     font-family: 'Orbitron', sans-serif;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     letter-spacing: 1px;
     color: #00e5ff;
     background: rgba(0, 229, 255, 0.05);
     border: 1px solid rgba(0, 229, 255, 0.2);
-    padding: 8px 14px;
+    padding: 6px 12px;
     border-radius: 6px;
     width: fit-content;
 }
@@ -153,6 +153,6 @@ body {
         aspect-ratio: auto;
     }
     .banner-image {
-        min-height: 280px;
+        min-height: 250px;
     }
 }
